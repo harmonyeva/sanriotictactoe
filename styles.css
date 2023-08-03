@@ -1,0 +1,131 @@
+body {
+  margin: auto;
+  background-color: #ffbde3;
+}
+
+#startScreen {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffbde3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#startScreen button {
+  background-color: #ffffff;
+  font-size: 1.4em;
+  padding: 1em 4em;
+  outline: black;
+  border-radius: 3em;
+  cursor: pointer;
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  max-width: fit-content;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  font-family: Comfortaa;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-top: 150px;
+  
+}
+
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.p1-kuromi {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(./Kuromi-PNG-Photos.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.p2-mymelody {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(./pngegg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.players {
+  font-family: Comfortaa;
+  text-align: center;
+  font-size: 30px;
+}
+
+#player1, #player2, #tie {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+#player1 {
+  padding-right: 30px;
+}
+
+#player2 {
+  padding-left: 30px;
+}
+
+.scores {
+  font-family: Comfortaa;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+#player1score, #player2score, #tiescore {
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+#player1score {
+  padding-right: 100px;
+}
+
+#player2score {
+  padding-left: 100px;
+}
+
+#playagain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#playagainbutton {
+  background-color: #ffffff;
+  font-size: 1.2em;
+  padding: 1em 4em;
+  outline: black;
+  border-radius: 3em;
+  cursor: pointer;
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+
+#gamescreen {
+  background-color: #ffbde3;
+}
